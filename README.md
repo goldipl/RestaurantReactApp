@@ -2,7 +2,7 @@
 
 My webpage created using `create react app`.
 
-# Live :start:
+# Live :star:
 
 Live link: https://restaurant-react-app-webpage.herokuapp.com/
 

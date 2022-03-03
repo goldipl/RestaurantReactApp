@@ -2,7 +2,14 @@
 
 My webpage created using `create react app`.
 
-# Live :star:
+## Technologies
+* React
+* JavaScript
+* HTML5
+* CSS3
+* Heroku Deployment
+
+## Live :star:
 
 Live link: https://restaurant-react-app-webpage.herokuapp.com/
 

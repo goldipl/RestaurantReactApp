@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 nav {
     height: 60px;
     display: flex;
@@ -8,12 +8,12 @@ nav {
 }
 
 nav a.logo {
-    font-family: 'Zen Tokyo Zoo', cursive;
+    font-family: 'Courgette', cursive;
     font-size: 48px;
     font-weight: 400;
     margin: 8px 0 0 16px;
     text-decoration: none;
-    color: goldenrod;
+    color: rgb(240, 179, 27);
 }
 
 nav .desktopMenu {
@@ -23,7 +23,6 @@ nav .desktopMenu {
 }
 
 nav .desktopMenu li {
-    font-family: 'Arsenal', sans-serif;
     position: relative;
     padding: 0px 24px;
     cursor: pointer;
@@ -36,7 +35,7 @@ nav .desktopMenu li::after {
     content: '';
     width: 8px;
     height: 8px;
-    background: goldenrod;
+    background: rgb(240, 179, 27);
     position: absolute;
     bottom: calc(50% - 6px);
     left: -4px;
@@ -47,6 +46,7 @@ nav .desktopMenu li:first-of-type::after {
 }
 
 nav .desktopMenu li a {
+    font-family: 'Courgette', cursive;
     position: relative;
     cursor: pointer;
     line-height: 60px;
@@ -68,7 +68,7 @@ nav .desktopMenu li a::after {
     width: 0%;
     content: '';
     color: transparent;
-    background: goldenrod;
+    background: rgb(240, 179, 27);
     height: 1px;
     transition: all 0.5s;
 }
@@ -107,19 +107,19 @@ nav li {
 
 .hamburger .bar2 {
     height: 2px;
-    background: goldenrod;
+    background: rgb(240, 179, 27);
     margin: 5px auto;
 }
 
 .hamburger .bar3 {
     height: 2px;
-    background: goldenrod;
+    background: rgb(240, 179, 27);
     margin: 14px auto;
 }
 
 .hamburger.active .bar1 {
     height: 2px;
-    background: goldenrod;
+    background: rgb(240, 179, 27);
     margin: 6px auto;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
@@ -133,7 +133,7 @@ nav li {
 
 .hamburger.active .bar3 {
     height: 2px;
-    background: goldenrod;
+    background: rgb(240, 179, 27);
     margin: 6px auto;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
@@ -177,7 +177,6 @@ nav li {
 }
 
 .mobileMenu .mobileMenu_li li {
-    font-family: 'Arsenal', sans-serif;
     display: block;
     text-align: center;
     width: 100%;
@@ -192,7 +191,7 @@ nav li {
 
 .mobileMenu .mobileMenu_li li:hover {
     color: #FFFFFF;
-    background: goldenrod;
+    background: rgb(240, 179, 27);
 }
 
 .mobileMenu .mobileMenu_li li:hover a {
@@ -201,6 +200,7 @@ nav li {
 }
 
 .mobileMenu .mobileMenu_li li a {
+    font-family: 'Courgette', cursive;
     color: #FFFFFF;
     text-decoration: none;
 }

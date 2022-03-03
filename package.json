@@ -41,9 +41,6 @@
             "last 1 safari version"
         ]
     },
-    "devDependencies": {
-        "gh-pages": "^3.2.3"
-    },
     "main": "index.js",
     "keywords": [],
     "author": "",

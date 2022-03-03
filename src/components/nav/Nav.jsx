@@ -1,4 +1,5 @@
 import "./nav.css";
+import "./hamburger.js";
 
 const Nav = () => {
   return (
@@ -25,7 +26,6 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
-      <script src="./nav.js"></script>
     </>
   );
 };

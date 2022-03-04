@@ -1,3 +1,4 @@
+@import "./../variables/variables";
 nav {
     height: 60px;
     display: flex;
@@ -9,7 +10,7 @@ nav {
         font-weight: 400;
         margin: 8px 0 0 16px;
         text-decoration: none;
-        color: rgb(240, 179, 27);
+        color: $goldenColor;
     }
     li {
         text-transform: uppercase;
@@ -29,7 +30,7 @@ nav {
                 content: '';
                 width: 8px;
                 height: 8px;
-                background: rgb(240, 179, 27);
+                background: $goldenColor;
                 position: absolute;
                 bottom: calc(50% - 6px);
                 left: -4px;
@@ -50,7 +51,7 @@ nav {
                 font-weight: 700;
                 padding: 8px;
                 &:hover {
-                    text-decoration: rgb(240, 179, 27) underline;
+                    color: $goldenColor;
                 }
             }
         }
@@ -81,12 +82,12 @@ nav {
     opacity: 0;
     .bar2 {
         height: 2px;
-        background: rgb(240, 179, 27);
+        background: $goldenColor;
         margin: 5px auto;
     }
     .bar3 {
         height: 2px;
-        background: rgb(240, 179, 27);
+        background: $goldenColor;
         margin: 14px auto;
     }
 }
@@ -94,7 +95,7 @@ nav {
 .hamburger.active {
     .bar1 {
         height: 2px;
-        background: rgb(240, 179, 27);
+        background: $goldenColor;
         margin: 6px auto;
         -webkit-transition: 0.2s ease-in-out;
         transition: 0.2s ease-in-out;
@@ -106,7 +107,7 @@ nav {
     }
     .bar3 {
         height: 2px;
-        background: rgb(240, 179, 27);
+        background: $goldenColor;
         margin: 6px auto;
         -webkit-transition: 0.2s ease-in-out;
         transition: 0.2s ease-in-out;
@@ -162,7 +163,7 @@ nav {
             }
             &:hover {
                 color: #FFFFFF;
-                background: rgb(240, 179, 27);
+                background: $goldenColor;
             }
             a {
                 font-family: 'Courgette', cursive;

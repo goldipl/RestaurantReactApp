@@ -1,3 +1,4 @@
+@import "./../variables/variables";
 .about_wrapper {
     display: flex;
     text-align: center;
@@ -6,7 +7,7 @@
         margin: 16px;
     }
     .about_wrapper-aboutText-title {
-        color: rgb(240, 179, 27);
+        color: $goldenColor;
         font-size: 40px;
         margin: 16px;
     }

@@ -1,6 +1,7 @@
 import Nav from "./components/nav/Nav.jsx";
-import About from "./components/about/About.jsx";
 import Header from "./components/header/Header.jsx";
+import About from "./components/about/About.jsx";
+import Contact from "./components/contact/Contact.jsx";
 
 const App = () => {
 
@@ -10,6 +11,7 @@ const App = () => {
         <Nav />
         <Header />
         <About />
+        <Contact />
       </div>
     </>
   );

@@ -6,9 +6,10 @@ const Nav = () => {
       <nav>
         <a href="./../../../public/index.html" class="logo">Restaurant</a>
         <ul class="desktopMenu">
-          <li><a href="#">Main Page</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#header">Main Page</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="hamburger">
@@ -19,9 +20,10 @@ const Nav = () => {
 
         <div class="mobileMenu">
           <ul class="mobileMenu_li">
-            <li><a href="#">Main Page</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#header">Main Page</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>

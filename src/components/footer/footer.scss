@@ -1,0 +1,9 @@
+@import "./../variables/variables";
+footer .footer_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../img/wooden_background.jpg) center center;
+    height: 40px;
+    color: #FFFFFF;
+}

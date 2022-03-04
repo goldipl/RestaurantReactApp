@@ -3,10 +3,10 @@ import "./nav.scss";
 const Nav = () => {
   return (
     <>
-      <nav>
+      <nav id="nav">
         <a href="./../../../public/index.html" class="logo">Restaurant</a>
         <ul class="desktopMenu">
-          <li><a href="#header">Main Page</a></li>
+          <li><a href="#nav">Main Page</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -20,7 +20,7 @@ const Nav = () => {
 
         <div class="mobileMenu">
           <ul class="mobileMenu_li">
-            <li><a href="#header">Main Page</a></li>
+            <li><a href="#nav">Main Page</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="#contact">Contact</a></li>

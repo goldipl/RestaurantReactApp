@@ -2,13 +2,12 @@
     display: flex;
     text-align: center;
     padding: 16px;
-}
-
-.about_wrapper .about_wrapper-aboutText-title {
-    position: absolute;
-    top: 25vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFFFFF;
-    font-size: 40px;
+    .about_wrapper-aboutText-title {
+        position: absolute;
+        top: 25vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF;
+        font-size: 40px;
+    }
 }

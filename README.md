@@ -6,7 +6,7 @@ My webpage created using `create react app`.
 * React
 * JavaScript
 * HTML5
-* CSS3
+* SCSS
 * Heroku Deployment
 
 ## Live :star:

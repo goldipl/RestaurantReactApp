@@ -1,4 +1,4 @@
-import "./header.css";
+import "./header.scss";
 import Background from "../../img/wooden_background.jpg";
 
 const Header = () => {

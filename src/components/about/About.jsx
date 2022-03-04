@@ -2,7 +2,7 @@ import "./about.scss";
 
 const About = () => {
   return (
-    <div className="about_wrapper">
+    <div className="about_wrapper" id="about">
       <div className="about_wrapper-aboutText">
         <h1 className="about_wrapper-aboutText-title_mainTitle">Traditional Polish cuisine</h1>
         <p className="about_wrapper-aboutText-paragraph">

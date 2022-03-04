@@ -3,6 +3,7 @@ import Header from "./components/header/Header.jsx";
 import About from "./components/about/About.jsx";
 import Menu from "./components/menu/Menu.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
         <About />
         <Menu />
         <Contact />
+        <Footer />
       </div>
     </>
   );

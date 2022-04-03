@@ -6,7 +6,7 @@ const Nav = () => {
       <nav id="nav">
         <a href="./../../../public/index.html" className="logo">Restaurant</a>
         <ul className="desktopMenu">
-          <li><a href="#">Main Page</a></li>
+          <li><a href="./../../../public/index.html">Main Page</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -20,7 +20,7 @@ const Nav = () => {
 
         <div className="mobileMenu">
           <ul className="mobileMenu_li">
-            <li><a href="#">Main Page</a></li>
+            <li><a href="./../../../public/index.html">Main Page</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="#contact">Contact</a></li>
